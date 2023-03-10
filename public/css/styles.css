@@ -1,0 +1,96 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    padding:0;
+    background-image: linear-gradient(to top right, #BFACE2 40%, #E9F8F9 60%);
+}
+
+.container1-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.box{
+    margin-top:150px;
+    margin-bottom:340px;
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+    line-height: 15px;
+    margin: 5px 0;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.foot
+{
+    position: relative;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 1px 0;
+}
+
+.compose{
+    margin-left: 80px;
+    text-align: left;
+    padding: 10px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #EBC7E6;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 20px;
+  color: #0a0909;
+}
+
+input[type=checkbox]{
+    height: 20px;
+    width: 20px;
+    margin-top: 34px;
+    display: flex;
+}

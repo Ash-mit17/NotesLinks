@@ -1,0 +1,13 @@
+<%- include("header") -%>
+<div class="container">
+  <div class="box">
+    <h1>My Dashboard</h1>
+    <form action="/composeNote" method="post">
+      <button type="submit" class="btn btn-primary btn-lg">Add Note</button>
+    </form>
+    <form action="/composeLink" method="post">
+      <button type="submit" class="btn btn-primary btn-lg">Add Link</button>
+    </form>
+  </div>
+  <%- include("footer") -%>
+</div>

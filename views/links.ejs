@@ -1,0 +1,21 @@
+<%- include("header")  -%>
+
+    <style>
+        html,body{
+            overflow-y: auto;
+        }
+    </style>
+    <div style="padding:0 20px;">
+        <% 
+        LT.forEach(element=> {%>
+            <form action="/deleteL" method="post">
+            <div style="display: flex;">
+            <h1><%= element.title %></h1>
+            <input type="checkbox" name="checkbox" value="<%=element._id%>" onclick="this.form.submit()">
+            </div>
+            <p><%= element.body %></p>
+            </form>
+        <% }) %>
+    </div>
+
+

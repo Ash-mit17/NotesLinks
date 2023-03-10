@@ -1,0 +1,24 @@
+<%- include("header") -%>
+
+<form action="/form2" method="post">
+    <div style="margin: 10px 20px;">
+        <h1>Links</h1>
+      <div class="form-group">
+        <label>Title</label>
+        <input class="form-control" type="text" name="LText" />
+      </div>
+      <div class="form-group">
+        <label>Text</label>
+        <textarea
+          class="form-control"
+          name="LBody"
+          cols="40"
+          rows="5"
+        ></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit">Publish</button>
+    </div>
+</form>
+
+
+<%- include("footer") -%>

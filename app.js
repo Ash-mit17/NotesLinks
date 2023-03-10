@@ -1,9 +1,11 @@
+require('dotenv').config()
 const express=require("express")
 const bodyParser=require("body-parser")
 const ejs=require("ejs")
 const app=express()
 const mongoose=require("mongoose")
-mongoose.connect("mongodb+srv://AshmitRanjan:Ashmit17@cloud.jcw7c9u.mongodb.net/Notes?retryWrites=true&w=majority",{useNewUrlParser:true})
+
+mongoose.connect(process.env.id,{useNewUrlParser:true})
 
 const Schema=new mongoose.Schema({
     title:String,
